@@ -1,0 +1,407 @@
+/* INDEX PAGE STYLING */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-space{
+    background-color: blanchedalmond;
+    align-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.logo-space .topbar h5{
+    background-color: rgba(2, 4, 99, 0.87);
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 5px 10px 5px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.89);
+       
+}
+.logo-space .topbar a {
+    display: inline;
+    float: right;
+    margin: 15px 5px 0px 0px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+    border-right: 2px dotted black;
+}
+.logo-space .topbar #signup{
+    border-right: none;
+}
+.logo-space .topbar a:hover {
+    padding: 10px;
+    background-color: #dddddd;
+    transition-duration: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24)
+}
+
+.logo-space .topbar img {
+    align-content: center;
+    max-width: 100%;
+    margin: 15px 5px 10px 40%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    padding: 10px 20px 20px 20px;
+    background-color: rgba(245, 211, 206, 0.363);
+}
+
+.menubar{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+}
+.menubar nav{
+    background-color: rgba(24, 71, 158, 0.61);
+    text-align:center;   
+    margin: 0px;    
+    padding: 20px;
+}
+.menubar nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: rebeccapurple;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+}
+.menubar nav a:hover{
+    background-color: rgb(30, 13, 88);
+    transition-duration: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+
+}
+
+.product-ad{
+    width: 100%;
+    height: 280px auto;
+    background-color: lightblue;
+    margin: 0px;
+    padding: 10px 0px;
+    border-bottom: 2px solid black;
+}
+
+.product-ad .search-bar{
+    width: 25%;
+    height: auto;
+    background-color: rgba(161, 161, 161, 0.267);    
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 0px 0px 10px;
+
+}
+
+.product-ad .search-bar ul{
+    list-style-type:none;
+    padding: 10px 5px;
+}
+
+.product-ad .search-bar li{
+    padding: 5px 0px;
+}
+.product-ad .search-bar li a{
+    text-decoration: none;
+    color: rgb(37, 21, 94);  
+    border-radius: 3px;
+}
+.product-ad .search-bar li a:hover{
+    background-color:rgba(218, 218, 219, 0.671);
+    padding: 5px 0px;
+    border-style: none;
+    transition-duration: 0.2s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+.ad-vid-1{    
+    background-color: rgba(65, 70, 143, 0.158);
+    width: 25%;
+}
+.product-ad .ad-vid-2{     
+    width: 25%;
+    background-color: rgba(65, 70, 143, 0.158);
+}
+
+.ad-3{
+    width: 25%;
+    padding: 0px;
+    background-color: rgba(65, 70, 143, 0.158);
+
+}
+
+
+#about-us{
+    background-color: rgba(236, 187, 187, 0.349);
+    margin: 0px;
+    padding: 5px 10px;
+    font-size: 17px; 
+    border-bottom: 2px dashed black;
+
+}
+#about-us h2{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;     
+}
+
+.offer-ad-4{
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 17px;
+    color: blue;
+    width: 100%;
+    height: auto;
+    border: 1px dotted lightblue;
+    padding:0px;
+    height: 450px;
+}
+
+.offer-ad-4 a{
+    margin: 0px;
+    text-decoration: none;
+}
+.offer-ad-4 h4>a:hover{
+    margin: 0px;
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    transition-duration: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+.offer-ad-4 img{
+    margin: 5px 1px;
+    padding: 0px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.foot{
+    background-color: rgba(138, 111, 111, 0.603);
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.foot ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    
+}
+.foot a{
+    text-decoration: none;
+    color: bisque;
+    
+    margin: 10px;
+    padding: 10px;
+}
+.foot li{
+    padding: 5px;
+}
+.foot #copy{
+    background-color:lightgray;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    opacity: 50%;
+}
+.foot #foot-link-1{
+    margin: 10px;
+    padding: 15px;
+}
+.foot #foot-link-1 a:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.foot #foot-link-2{
+    margin: 30px;   
+}
+.foot #foot-link-2 a:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* PRODUCT PAGE STYLING */
+
+.product-main h3{
+    margin: 0px;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-style: italic;
+    text-align: left;
+}
+.product-main h3>a:hover{
+    margin: 0px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    transition-duration: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    border-radius: 5px;
+}
+
+.product-main{
+    margin: 0px;
+    padding: 10px 0px 20px 0px;
+    align-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: beige;
+
+}
+
+.product-main #product-table{
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+.product-main #product-table td{ 
+    margin: 0px;
+    padding: 20px 0px;
+    border: 1px dashed rgba(0, 0, 0, 0.212);
+    height: 300px;
+}
+.product-main #product-table td:hover{
+    border: 1px dashed black;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    box-shadow: 0 14px 16px 0 rgba(51, 16, 250, 0.671);
+    background-color: rgba(236, 238, 236, 0.075);
+}
+.product-main #product-table td>p:hover{ 
+     color: red;
+}
+
+#pageNo{
+    display: inline-block;
+    padding: 20px 0px;
+}
+#pageNo a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-right: 1px dotted black;
+}
+#pageNo a:hover{
+    border-radius: 5px;
+    transition-duration: 0.1s;
+    background-color: #f1d4d493;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}    
+
+/* ENQUIRY PAGE STYLING */
+#enq-search{
+    background-color: beige;
+    margin: 0px;
+    padding: 20px 0 0 10px;
+}
+.enqImg{
+    margin: 0px;
+    background-color: rgba(247, 161, 74, 0.418);
+    padding: 10px 400px;
+}
+
+
+.enq-form{
+    font-size: 17px;
+    padding: 10px 500px;
+    box-align: center;
+    background-color: blanchedalmond;
+}
+
+
+.enq-form input, select, textarea {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+.enq-form button{
+    margin: 10px;
+    padding: 12px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.enq-form button:hover,input:hover,textarea:hover{
+
+    padding: 12px;
+    background-color: beige;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* CONTACT US STYLING */
+
+.contact-us{
+    background-color: rgba(240, 195, 195, 0.479);
+    margin: 0;
+    padding: 20px 20px 50px 20px;
+}
+.contact-us .con1{
+    width: 400px;
+    padding: 0px 20px 10px 20px;
+    border-radius: 10px;
+    border-color: rgba(204, 204, 204, 0.5);
+}
+.contact-us .con1:hover{
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    padding: 0px 20px 10px 20px;
+    border-color: black;
+}
+
+.contact-us .con2{
+    font-size: 16px;
+    margin: 0;
+    padding: 0px 20px;
+}
+.contact-us .con2:hover{
+    margin: 0;
+    padding: 0px 20px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    box-shadow: 0 14px 16px 0 rgba(51, 16, 250, 0.671);
+    background-color: rgba(236, 238, 236, 0.075);
+}
+
+/* SIGNUP PAGE STYLING  */
+.signup-form,#form-table{
+    padding: 10px 20px;
+    border: 1px dotted black;
+    border-radius: 10px;
+}
+
+.signup-form #form-table td{
+    padding: 10px;
+    
+    font-size: 17px;
+    box-align: center;
+    background-color: rgba(255, 235, 205, 0.274);
+}
+
+.signup-form #form-table input,textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    padding: 12px;
+} 
